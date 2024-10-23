@@ -8,9 +8,12 @@
 
 <body>
 	<form method="post">
+		<label for="name">Name</label>
 		<input placeholder="Name" type="text" id="name" required>
-		<input placeholder="Email" type="email" required>
-		<label for="Gender">Gender</label>
+		<label for="email">Email</label>
+		<input placeholder="Email" type="email" id="email" required>
+
+		<label for="Gender" name="Gender">Gender</label>
 		<input type="radio" id="Gender" name="Gender" required>Male
 		<input type="radio" id="Gender" name="Gender" required>Female
 		<select id="cars">
